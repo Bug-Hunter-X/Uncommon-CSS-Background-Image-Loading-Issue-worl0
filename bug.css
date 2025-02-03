@@ -1,0 +1,7 @@
+The following CSS code snippet attempts to style an element with a background image that is not loading properly.  The image path is correctly specified, yet the background image isn't showing. This is especially strange because the same code functions correctly on other browsers and systems. 
+```css
+.element {
+  background-image: url('path/to/image.jpg');
+  background-size: cover;
+}
+```
